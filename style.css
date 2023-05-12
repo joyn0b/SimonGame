@@ -1,19 +1,23 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #FC73A8;
+    /* For browsers that do not support gradients */
+     /* background-image: linear-gradient(#F79540, #FC73A8); */
+
 }
 
 p {
-  font-family: 'Press Start 2P', cursive;
-    font-size: 1rem;
+font-family: 'Comfortaa', cursive;
+  font-family: 'Noto Serif Khojki', serif;
+    font-size: 1.25rem;
     margin: 5%;
-    color: #FEF2BF;
+    color: #4F200D;
 }
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
   margin:  5%;
-  color: #FEF2BF;
+  color: #4F200D;
 }
 
 .container {
@@ -26,14 +30,14 @@ p {
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 100px;
-  width: 100px;
-  border: 10px solid black;
-  border-radius: 20%;
+  height: 150px;
+  width: 150px;
+  border: 10px solid #4F200D;
+  border-radius: 50%;
 }
 
 .game-over {
-  background-color: red;
+  background-color: #FC4F00;
   opacity: 0.8;
 }
 
